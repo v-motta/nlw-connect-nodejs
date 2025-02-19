@@ -1,0 +1,19 @@
+POST http://localhost:3333/subscriptions
+Content-Type: application/json
+
+{
+  "name": "Vinicius Motta",
+  "email": "viniciusmotta123@gmail.com",
+}
+
+###
+
+GET http://localhost:3333/invites/75c1e2cd-9748-4432-a991-55d01a78b001
+
+###
+
+GET http://localhost:3333/subscribers/75c1e2cd-9748-4432-a991-55d01a78b001/ranking/clicks
+
+###
+
+GET http://localhost:3333/subscribers/75c1e2cd-9748-4432-a991-55d01a78b001/ranking/count
